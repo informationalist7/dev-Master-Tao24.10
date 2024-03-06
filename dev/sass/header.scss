@@ -1,0 +1,33 @@
+.header {
+	padding: 25px 0 39px;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+		max-width: 172px;
+	}
+
+	&__navigation{
+		width: 100%;
+		max-width: 602px;
+		display: flex;
+		justify-content: space-between;
+		margin: -14px -13px 0px 0px;
+		a{
+			color: #fff;
+			text-decoration: none;
+			&hover{
+				color: $color-primary;
+			}
+		}
+	}
+
+	.img-fluid{
+		margin: -10px 0px 3px 25px;
+	}
+
+}
