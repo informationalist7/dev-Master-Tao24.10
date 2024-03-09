@@ -1,5 +1,6 @@
 .header {
 	padding: 25px 0 39px;
+	margin: -7px -4px 3px 25px;
 
 	.container {
 		display: flex;
@@ -11,23 +12,41 @@
 		max-width: 172px;
 	}
 
-	&__navigation{
+	&__navigation {
 		width: 100%;
-		max-width: 602px;
 		display: flex;
-		justify-content: space-between;
-		margin: -14px -13px 0px 0px;
-		a{
+
+
+
+		&-item-link {
 			color: #fff;
 			text-decoration: none;
-			&hover{
+
+			&hover {
 				color: $color-primary;
 			}
 		}
 	}
 
-	.img-fluid{
-		margin: -10px 0px 3px 25px;
+
+	.header__navigation-list {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		max-width: 602px;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+
 	}
 
+
+
+	.btn {
+		margin: -3px 28px 0px 0px;
+	}
+}
+
+.header__navigation {
+	display: none;
 }

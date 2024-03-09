@@ -1,4 +1,13 @@
 @media screen and (max-width: 1024px) {
+    .header-navigation{
+        position: fixed;
+        inset: 5px;
+        flex-direction: column;
+    }
+
+    .header-navigation-list{
+        flex-direction: column;
+    }
 }
 
 
