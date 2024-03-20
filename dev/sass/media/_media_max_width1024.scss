@@ -102,8 +102,8 @@
     .container {
         .template-title {
             text-align: center;
-            padding-bottom: 12px;
-            margin: 0 auto 35px;
+            padding-bottom: 20px;
+            margin: 0 auto 54px;
 
             h2 {
                 text-align: center;
@@ -123,5 +123,54 @@
 
     }
 
+    .calculation-row .calculation-form {
+        margin: 0 auto;
+        padding: 48px 30px 34px;
+    }
     
+    
+    .calculation-decoration {
+        display: none;
+    }
+    
+    .calculation-row .input-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .input-column {
+        .btn-lg {
+            width: 100%;
+            .icon {
+                margin: 0 -14px 0 auto;
+                }
+        }
+    }
+
+    .calculation-form .column-checkbox {
+        padding-top: 8px;
+        margin: 0 0 -8px 0;
+    }
+
+    .advantage-description {
+        margin-bottom: 48px;
+    }
+
+    .slider-template {
+        width: 390px;
+        margin: 0 auto;
+
+        .slick-slide {
+            margin: 0 15px;
+        }
+    }
+
+    .calculation.charter {
+        margin-bottom: $section-margin;
+    }
+    
+    .advantages,
+    .services,
+    .test {
+        @include default-bg-mobile;
+    }
 }
