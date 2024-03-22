@@ -10,7 +10,6 @@
     >.img-box {
         height: 229px;
         margin: 0 -20px 27px;
-        display: flex;
         justify-content: center;
 
         img {
@@ -81,6 +80,7 @@
 
 .slider-template {
     margin: 0 -15px;
+    // max-width: 1140px;
 
     .slick-slide {
         margin: 0 15px;
