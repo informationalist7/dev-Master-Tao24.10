@@ -2,6 +2,9 @@
     .template-card {
         text-align: left;
         position: relative;
+        *:not(>.img-box img){
+            position: relative;
+        }
 
         &:before {
             content: "";
