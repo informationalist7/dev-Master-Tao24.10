@@ -127,22 +127,24 @@
         margin: 0 auto;
         padding: 48px 30px 34px;
     }
-    
-    
+
+
     .calculation-decoration {
         display: none;
     }
-    
+
     .calculation-row .input-row {
         flex-direction: column;
         gap: 16px;
     }
+
     .input-column {
         .btn-lg {
             width: 100%;
+
             .icon {
                 margin: 0 -14px 0 auto;
-                }
+            }
         }
     }
 
@@ -151,10 +153,10 @@
         margin: 0 0 -8px 0;
     }
 
-    section.advantages{
+    section.advantages {
         padding-bottom: 43px;
     }
-    
+
 
     .slider-template {
         width: 335px;
@@ -165,7 +167,7 @@
         }
     }
 
-    
+
     .first-screen,
     .calculation.charter,
     .advantages,
@@ -173,10 +175,16 @@
     .services {
         margin-bottom: $section-margin;
     }
-    
+
     .advantages,
     .services,
     .test {
         @include default-bg-mobile;
     }
+
+    .delivery .template-title,
+    .services .template-title {
+        padding-bottom: 32px;
+    }
+    
 }
